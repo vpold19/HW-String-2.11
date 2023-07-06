@@ -22,8 +22,9 @@ public class BasketController {
         basketService.add(id);
     }
 
+
     @GetMapping("/get")
-    public List<Long> get(){
+    public List<Long> get() {
         return basketService.getAll();
     }
 }
